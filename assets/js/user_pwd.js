@@ -19,7 +19,7 @@ $(function () {
         }
     })
 
-    $('.layui-form').on('click', function (e) {
+    $('.layui-form').on('submit', function (e) {
         e.preventDefault()
         $.ajax({
             method : 'post', 
